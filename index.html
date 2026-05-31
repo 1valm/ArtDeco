@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ArtDeco | Кухни на заказ</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="header">
+    <div class="container header-inner">
+        <a href="index.html" class="logo">
+            <img src="images/logo.png" alt="ArtDeco" class="logo-img">
+        </a>
+        <button class="burger-menu" id="burgerMenu">
+            <span class="burger-line"></span>
+            <span class="burger-line"></span>
+            <span class="burger-line"></span>
+        </button>
+        <div class="nav" id="navMenu">
+            <a href="index.html" data-ru="Главная" data-en="Home" class="active">Главная</a>
+            <a href="about.html" data-ru="О компании" data-en="About">О компании</a>
+            <a href="catalog.html" data-ru="Каталог" data-en="Catalog">Каталог</a>
+            <a href="actions.html" data-ru="Акции" data-en="Promotions">Акции</a>
+            <button class="lang-switch" id="langSwitcher">EN</button>
+        </div>
+    </div>
+</header>
+
+<section class="hero">
+    <img src="images/Header.png" alt="Beautiful kitchen" class="hero-bg">
+    <div class="hero-overlay"></div>
+    <div class="container">
+        <div class="hero-content">
+            <h1 data-ru="Кухни на заказ" data-en="Custom Kitchens">Кухни на заказ</h1>
+            <p data-ru="Мы бесплатно производим замеры и разрабатываем дизайн-проект с учетом ваших пожеланий" data-en="We provide free measurements and design project based on your preferences">Мы бесплатно производим замеры и разрабатываем дизайн-проект с учетом ваших пожеланий</p>
+            <a href="catalog.html" class="btn-primary" data-ru="Перейти в каталог" data-en="Go to catalog">Перейти в каталог</a>
+        </div>
+    </div>
+</section>
+
+<section class="stats">
+    <div class="container">
+        <h2 class="section-title" data-ru="Мы в цифрах" data-en="We in numbers">Мы в цифрах</h2>
+        <div class="stats-grid">
+            <div class="stat-item">
+                <span class="stat-number" data-target="17">17</span>
+                <span class="stat-text" data-ru="лет на рынке" data-en="years on market">лет на рынке</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number" data-target="321">321</span>
+                <span class="stat-text" data-ru="реализованный проект" data-en="completed projects">реализованный проект</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number" data-target="3">3</span>
+                <span class="stat-text" data-ru="крупных производства в 3-х городах" data-en="large productions in 3 cities">крупных производства в 3-х городах</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="styles-section">
+    <div class="container">
+        <h2 class="section-title" data-ru="Стили кухонь" data-en="Kitchen Styles">Стили кухонь</h2>
+        <div class="styles-grid">
+            <div class="style-card"><div class="style-img" style="background-image: url('images/Classic.png');"></div><h3 data-ru="Классика" data-en="Classic">Классика</h3><p data-ru="Характеризуется строгими и симметричными линиями, сдержанностью цветовой гаммы, использованием натуральных материалов и декором." data-en="Characterized by strict and symmetrical lines, restrained color palette, use of natural materials and decor.">Характеризуется строгими и симметричными линиями, сдержанностью цветовой гаммы, использованием натуральных материалов и декором.</p></div>
+            <div class="style-card"><div class="style-img" style="background-image: url('images/Neoclassical.png');"></div><h3 data-ru="Неоклассика" data-en="Neoclassical">Неоклассика</h3><p data-ru="Это сочетание элементов классики и современности, лаконичных форм и сдержанного декора." data-en="A combination of classic and modern elements, concise forms and restrained decor.">Это сочетание элементов классики и современности, лаконичных форм и сдержанного декора.</p></div>
+            <div class="style-card"><div class="style-img" style="background-image: url('images/Modern.png');"></div><h3 data-ru="Модерн" data-en="Modern">Модерн</h3><p data-ru="Лаконичный дизайн с чёткими геометрическими формами, использованием натуральных материалов и природных оттенков." data-en="Concise design with clear geometric shapes, use of natural materials and natural shades.">Лаконичный дизайн с чёткими геометрическими формами, использованием натуральных материалов и природных оттенков.</p></div>
+            <div class="style-card"><div class="style-img" style="background-image: url('images/High-tech.png');"></div><h3 data-ru="Хай-тек" data-en="Hi-Tech">Хай-тек</h3><p data-ru="Современные и технологичные решения для обустройства кухни." data-en="Modern and technological solutions for kitchen arrangement.">Современные и технологичные решения для обустройства кухни.</p></div>
+            <div class="style-card"><div class="style-img" style="background-image: url('images/Loft.png');"></div><h3 data-ru="Лофт" data-en="Loft">Лофт</h3><p data-ru="Использование грубых, индустриальных материалов, открытой планировкой, минимализмом в декоре и многоуровневым освещением." data-en="Use of rough, industrial materials, open layout, minimalism in decor and multi-level lighting.">Использование грубых, индустриальных материалов, открытой планировкой, минимализмом в декоре и многоуровневым освещением.</p></div>
+            <div class="style-card"><div class="style-img" style="background-image: url('images/Provence.png');"></div><h3 data-ru="Прованс" data-en="Provence">Прованс</h3><p data-ru="Разновидность деревенского стиля, вдохновлённая жизнью в сельской французской провинции Прованс." data-en="A type of rustic style inspired by life in the rural French province of Provence.">Разновидность деревенского стиля, вдохновлённая жизнью в сельской французской провинции Прованс.</p></div>
+        </div>
+    </div>
+</section>
+
+<section class="process-section">
+    <div class="container">
+        <h2 class="section-title" data-ru="Процесс работы" data-en="Work Process">Процесс работы</h2>
+        <div class="process-grid">
+            <div class="process-step"><span class="step-number">01</span><h3 data-ru="Заявка на сайте или звонок" data-en="Request on website or call">Заявка на сайте или звонок</h3></div>
+            <div class="process-step"><span class="step-number">02</span><h3 data-ru="Замеры в день регистрации заявки" data-en="Measurements on the day of request">Замеры в день регистрации заявки</h3></div>
+            <div class="process-step"><span class="step-number">03</span><h3 data-ru="Дизайн-проект и просчет стоимости" data-en="Design project and cost calculation">Дизайн-проект и просчет стоимости</h3></div>
+            <div class="process-step"><span class="step-number">04</span><h3 data-ru="Изготовление до 3-х месяцев" data-en="Manufacturing up to 3 months">Изготовление до 3-х месяцев</h3></div>
+            <div class="process-step"><span class="step-number">05</span><h3 data-ru="Доставка в удобное время" data-en="Delivery at convenient time">Доставка в удобное время</h3></div>
+            <div class="process-step"><span class="step-number">06</span><h3 data-ru="Монтаж и гарантия обслуживания" data-en="Installation and service warranty">Монтаж и гарантия обслуживания</h3></div>
+        </div>
+    </div>
+</section>
+
+<section class="video-section">
+    <img src="images/Video.png" alt="Our production" class="video-bg">
+    <div class="video-overlay"></div>
+    <div class="container">
+        <div class="video-wrapper">
+            <div class="video-text">
+                <h2 data-ru="Убедитесь в качестве лично: покажем производство по видеосвязи" data-en="See the quality for yourself: we'll show production via video call">Убедитесь в качестве лично: покажем производство по видеосвязи</h2>
+                <p data-ru="Заказывать кухню — ответственный шаг. Мы вас прекрасно понимаем." data-en="Ordering a kitchen is a responsible step. We understand you perfectly.">Заказывать кухню — ответственный шаг. Мы вас прекрасно понимаем.</p>
+                <p data-ru="Поэтому приглашаем на прямую видеопрезентацию." data-en="Therefore, we invite you to a live video presentation.">Поэтому приглашаем на прямую видеопрезентацию.</p>
+                <p data-ru="Руководитель производства свяжется с вами в любом удобном мессенджере и в реальном времени:" data-en="The production manager will contact you via any convenient messenger and in real time:">Руководитель производства свяжется с вами в любом удобном мессенджере и в реальном времени:</p>
+                <ul>
+                    <li data-ru="Покажет цех: оборудование, материалы и этапы сборки" data-en="Show the workshop: equipment, materials and assembly stages">Покажет цех: оборудование, материалы и этапы сборки</li>
+                    <li data-ru="Расскажет о видах фасадов, столешниц и фурнитуры" data-en="Tell about types of facades, countertops and fittings">Расскажет о видах фасадов, столешниц и фурнитуры</li>
+                    <li data-ru="Продемонстрирует готовую кухню: разберёт модули, механизмы и важные для вас детали" data-en="Demonstrate the finished kitchen: disassemble modules, mechanisms and important details for you">Продемонстрирует готовую кухню: разберёт модули, механизмы и важные для вас детали</li>
+                </ul>
+            </div>
+            <div class="video-btn">
+                <a href="#" class="btn-primary" data-ru="Записаться на онлайн-консультацию" data-en="Book an online consultation">Записаться на онлайн-консультацию</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="reviews-section">
+    <div class="container">
+        <h2 class="section-title-center" data-ru="Отзывы клиентов" data-en="Customer Reviews">Отзывы клиентов</h2>
+        <div class="carousel-wrapper">
+            <button class="carousel-btn prev" id="prevBtn">‹</button>
+            <div class="carousel-container">
+                <div class="carousel-slides" id="carouselSlides">
+                    <div class="review-card"><img src="images/avatar1.png" alt="Avatar" class="review-avatar"><div class="review-author" data-ru="Олег Д. В." data-en="Oleg D. V.">Олег Д. В.</div><div class="review-text" data-ru="Давно мечтали о новой кухне, но никак не могли найти что-то действительно подходящее. В Кухни 'ArtDeco' нам разработали просто потрясающий дизайн-проект, учли все наши пожелания и особенности планировки. Кухня получилась очень современной, стильной и, главное, невероятно функциональной! Отдельное спасибо сборщикам — настоящие профессионалы! Мы в восторге от нашей новой кухни!" data-en="We had long dreamed of a new kitchen but couldn't find anything truly suitable. At ArtDeco Kitchens, they developed an amazing design project for us, taking into account all our wishes and layout features. The kitchen turned out to be very modern, stylish and, most importantly, incredibly functional! Special thanks to the assemblers - real professionals! We are delighted with our new kitchen!">Давно мечтали о новой кухне, но никак не могли найти что-то действительно подходящее. В Кухни 'ArtDeco' нам разработали просто потрясающий дизайн-проект, учли все наши пожелания и особенности планировки. Кухня получилась очень современной, стильной и, главное, невероятно функциональной! Отдельное спасибо сборщикам — настоящие профессионалы! Мы в восторге от нашей новой кухни!</div></div>
+                    <div class="review-card"><img src="images/avatar2.png" alt="Avatar" class="review-avatar"><div class="review-author" data-ru="Алевтина Н. С." data-en="Alevtina N. S.">Алевтина Н. С.</div><div class="review-text" data-ru="Всегда мечтала о кухне в классическом стиле, чтобы было уютно и тепло. Обратилась в Кухни 'ArtDeco' и не пожалела! Дизайнер помогла подобрать идеальные материалы и цвета, все сделано очень качественно и с любовью. Кухня получилась просто шикарная, как будто из журнала! Всем рекомендую, если хотите кухню на века!" data-en="I always dreamed of a classic style kitchen that is cozy and warm. I contacted ArtDeco Kitchens and didn't regret it! The designer helped me choose the perfect materials and colors, everything was done with high quality and love. The kitchen turned out simply luxurious, as if from a magazine! I recommend it to everyone if you want a kitchen for centuries!">Всегда мечтала о кухне в классическом стиле, чтобы было уютно и тепло. Обратилась в Кухни 'ArtDeco' и не пожалела! Дизайнер помогла подобрать идеальные материалы и цвета, все сделано очень качественно и с любовью. Кухня получилась просто шикарная, как будто из журнала! Всем рекомендую, если хотите кухню на века!</div></div>
+                    <div class="review-card"><img src="images/avatar3" alt="Avatar" class="review-avatar"><div class="review-author" data-ru="Арсений К. М." data-en="Arseniy K. M.">Арсений К. М.</div><div class="review-text" data-ru="Заказывал кухню в скандинавском стиле. Ребята из ArtDeco подошли к задаче с душой. Результат превзошел ожидания! Всё сделано аккуратно, в срок, с полным сопровождением. Теперь всем друзьям рекомендую только их!" data-en="I ordered a Scandinavian style kitchen. The guys from ArtDeco approached the task with soul. The result exceeded expectations! Everything is done neatly, on time, with full support. Now I recommend only them to all my friends!">Заказывал кухню в скандинавском стиле. Ребята из ArtDeco подошли к задаче с душой. Результат превзошел ожидания! Всё сделано аккуратно, в срок, с полным сопровождением. Теперь всем друзьям рекомендую только их!</div></div>
+                    <div class="review-card"><img src="images/avatar4" alt="Avatar" class="review-avatar"><div class="review-author" data-ru="Ольга Б. М." data-en="Olga B. M.">Ольга Б. М.</div><div class="review-text" data-ru="Спасибо огромное команде ArtDeco за мою кухню мечты! Дизайнер учла все мои пожелания, даже самые маленькие. Качество материалов отличное, сборка идеальная. Очень довольна, что выбрала именно эту компанию!" data-en="Huge thanks to the ArtDeco team for my dream kitchen! The designer took into account all my wishes, even the smallest ones. The quality of materials is excellent, the assembly is perfect. I am very happy that I chose this company!">Спасибо огромное команде ArtDeco за мою кухню мечты! Дизайнер учла все мои пожелания, даже самые маленькие. Качество материалов отличное, сборка идеальная. Очень довольна, что выбрала именно эту компанию!</div></div>
+                </div>
+            </div>
+            <button class="carousel-btn next" id="nextBtn">›</button>
+        </div>
+        <div class="carousel-dots" id="carouselDots"></div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-col"><img src="images/logo.png" alt="ArtDeco" class="footer-logo"><p data-ru="Воплощаем ваши мечты о идеальной кухне. Индивидуальный дизайн, качественные материалы, профессиональная сборка. Создаем уют и комфорт в вашем доме!" data-en="We make your dream kitchen come true. Individual design, quality materials, professional assembly. We create coziness and comfort in your home!">Воплощаем ваши мечты о идеальной кухне. Индивидуальный дизайн, качественные материалы, профессиональная сборка. Создаем уют и комфорт в вашем доме!</p></div>
+            <div class="footer-col"><h3 data-ru="Главная" data-en="Main">Главная</h3><a href="about.html"><i class="fas fa-chevron-right"></i> <span data-ru="О компании" data-en="About">О компании</span></a><a href="catalog.html"><i class="fas fa-chevron-right"></i> <span data-ru="Каталог" data-en="Catalog">Каталог</span></a><a href="actions.html"><i class="fas fa-chevron-right"></i> <span data-ru="Акции" data-en="Promotions">Акции</span></a></div>
+            <div class="footer-col"><h3 data-ru="Контакты" data-en="Contacts">Контакты</h3><p><i class="fas fa-phone-alt"></i> +7 (800) 389-65-80</p><p><i class="fas fa-envelope"></i> info@artdekokitchen.ru</p></div>
+            <div class="footer-col"><h3 data-ru="Адреса" data-en="Addresses">Адреса</h3><p><i class="fas fa-map-marker-alt"></i> <span data-ru="г. Москва, ул. Мебельная, д. 10" data-en="Moscow, Furniture str., 10">г. Москва, ул. Мебельная, д. 10</span></p><p><i class="fas fa-map-marker-alt"></i> <span data-ru="г. Астрахань, проспект Строителей, д. 25" data-en="Astrakhan, Stroitely Ave., 25">г. Астрахань, проспект Строителей, д. 25</span></p><p><i class="fas fa-map-marker-alt"></i> <span data-ru="г. Уфа, ул. Центральная, д. 5" data-en="Ufa, Central str., 5">г. Уфа, ул. Центральная, д. 5</span></p></div>
+        </div>
+        <div class="copyright"><p data-ru="© 2026. Все права защищены." data-en="© 2026. All rights reserved.">© 2026. Все права защищены.</p></div>
+    </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
